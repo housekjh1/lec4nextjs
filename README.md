@@ -9,7 +9,8 @@
 > npx create-next-app@latest <프로젝트명(소문자)><br/>
 - VSCode extension : Live Server(Ritwick Dey)
 - VSCode extension : ES7 React/Redux/GraphQL/React-Native snippets(rodrigovallades)
-- VSCode extension : Tailwind CSS IntelliSense(Tailwind Labs)<br/>
+- VSCode extension : Tailwind CSS IntelliSense(Tailwind Labs)
+- VSCode extension : Nextjs snippets(Pulkit Gangwar)<br/>
 > tailwindcss<br/>
 > https://tailwindcss.com/docs/installation<br/>
 > React Icons <br/>
@@ -19,7 +20,9 @@
 
 ## 실행
 
-> npm run dev<br/>
+> npm run dev : 개발용<br/>
+> npm run build : 정적페이지 서버 렌더링<br/>
+> npm run start : 페이지 구동<br/>
 
 ## 환경변수
 [(출처)](https://velog.io/@rmaomina/react-env)
