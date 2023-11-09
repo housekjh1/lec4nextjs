@@ -20,7 +20,9 @@
 
 ## 실행
 
-> npm run dev<br/>
+> npm run dev : 개발용<br/>
+> npm run build : 정적페이지 서버 렌더링<br/>
+> npm run start : 페이지 구동<br/>
 
 ## 환경변수
 [(출처)](https://velog.io/@rmaomina/react-env)
