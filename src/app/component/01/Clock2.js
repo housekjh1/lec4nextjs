@@ -6,7 +6,7 @@ const Clock = () => {
     return (
         <div className="App">
             <header className="App-header">
-                <ClockTime />
+                {/* <ClockTime /> */}
             </header>
         </div>
     );

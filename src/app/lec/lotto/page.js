@@ -1,10 +1,9 @@
-"use client"
 import Lotto from "@/app/component/02/Lotto";
 
-export default function LottoPage() {
+export default function page() {
     console.log("LottoPage");
     return (
-        <div className="m-10">
+        <div className="flex flex-col items-center">
             <h1>LottoPage</h1>
             <Lotto />
         </div>

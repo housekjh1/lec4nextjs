@@ -15,10 +15,10 @@ const ClockTime = () => {
 
     // useEffect는 함수, dependency array[] -> 처음 한 번만 실행
     useEffect(() => {
-        const t = setInterval(() => {// 비동기, 1초 후 실행
+        const t =  setInterval(() => {// 비동기, 1초 후 실행
             setDt(new Date().toLocaleTimeString());// const변수 dt는 setDt메서드를 이용해서 값변경해야함
         }, 1000);
-        return () => {clearInterval(t)};// 컴포넌트 사라졌을 때 인터벌 종료(콜백 함수로 작성해야 계속 돌아감 -> 매개변수를 사용할 시)
+        return () => { clearInterval(t)};// 컴포넌트 사라졌을 때 인터벌 종료(콜백 함수로 작성해야 계속 돌아감 -> 매개변수를 사용할 시)
     }, []);
 
     // useEffect : dependency array[변수], 특정 변수가 바뀔 때 실행

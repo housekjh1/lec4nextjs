@@ -1,10 +1,10 @@
-import ClockTime from "@/app/component/01/ClockTime";
+import BoxOffice from "../../component/04/BoxOffice";
 
 export default function page() {
     return (
         <div className="flex flex-col items-center">
-            <h1>ClockPage</h1>
-            <ClockTime />
+            <h1>BoxOfficePage</h1>
+            <BoxOffice />
         </div>
     );
 }

@@ -1,3 +1,4 @@
+"use client"
 import { useState, useEffect } from 'react';
 import LottoNums from './LottoNums';
 import ButtonBlue from '@/app/comm/ButtonBlue';
